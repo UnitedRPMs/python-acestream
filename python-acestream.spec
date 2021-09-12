@@ -1,6 +1,6 @@
 Name: python-acestream
-Version: 0.1.7
-Release: 2%{?dist}
+Version: 0.2.0
+Release: 1%{?dist}
 Summary: Python Acestream
 License: GPLv3
 URL: https://github.com/jonian/python-acestream
@@ -35,6 +35,9 @@ Summary: %{summary}
 %{python3_sitelib}/*
 
 %changelog
+* Sat Sep 11 2021 Sérgio Basto <sergio@serjux.com> - 0.2.0-1
+- Update python-acestream to 0.2.0
+
 * Wed Jun 10 2020 Unitedrpms Project <unitedrpms AT protonmail DOT com> 0.1.7-2 
 - Rebuilt for python3.9
 
